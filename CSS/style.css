@@ -98,7 +98,7 @@ body {
 /*============================================================*/
 
 .top-area {
-	background-image: url('/content/first_backplane.jpg');
+	background-image: url('./content/first_backplane.jpg');
 	position: relative;
 	display: flex;
 	height: 100vh;
@@ -570,7 +570,7 @@ body {
 /*============================================================*/
 
 .middle-area_one {
-	background-image: url('/content/second_backplane.jpg');
+	background-image: url('./content/second_backplane.jpg');
 }
 
 .middle-area_one .continues_block,
@@ -682,7 +682,7 @@ body {
 /*============================================================*/
 
 .middle-area_two {
-	background-image: url('/content/second_backplane.jpg');
+	background-image: url('./content/second_backplane.jpg');
 }
 
 /*============================================================*/
@@ -817,7 +817,7 @@ body {
 /*============================================================*/
 
 .bottom-area {
-	background-image: url('/content/third_backplane.jpg');
+	background-image: url('./content/third_backplane.jpg');
 }
 
 .parallax.bottom-area:before {
