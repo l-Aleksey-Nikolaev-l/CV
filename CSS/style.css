@@ -794,6 +794,11 @@ body {
 	margin: 16px;
 }
 
+.hobby .card .card_bottom .caption {
+	font-size: 1.1rem;
+	font-weight: bold;
+}
+
 .hobby .card:hover .card_bottom {
 	top: 100%;
 	box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.15);
