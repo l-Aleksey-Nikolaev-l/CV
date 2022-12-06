@@ -1,7 +1,7 @@
 /*============================================================*/
 /*============================================================*/
-/*               ========== CV As A Project ==========        */
-/*               ===== Author: Aleksey Nikolaev ======        */
+/*           ========== CV As A Project ==========            */
+/*           ===== Author: Aleksey Nikolaev ======            */
 /*============================================================*/
 /*============================================================*/
 
@@ -145,7 +145,6 @@ body {
 /*========== NAVIGATION CONTAINER                             */
 /*============================================================*/
 .nav_container {
-	outline: green solid 1px;
 	position: relative;
 	display: flex;
 	height: 100%;
@@ -203,7 +202,7 @@ body {
 }
 
 .navigation .menu_section .menu li{
-	padding-right: 20px;
+	padding-right: 10px;
 	padding-left: 20px;
 	transition: ease-in-out 0.25s;
 }
@@ -211,7 +210,7 @@ body {
 .navigation .menu_section a {
 	text-decoration: none;
 	color: rgba(255, 255, 255, 0.80);
-	font-size: 1.5rem;
+	font-size: 1.4rem;
 	letter-spacing: 1px;
 	white-space: nowrap;
 	transition: color 0.25s;
@@ -608,7 +607,7 @@ body {
 
 .experience {
 	background: #394248;
-	height:1150px;
+	height:1250px;
 	width: 100%;
 	scroll-margin-top: 55px;
 	z-index: 40;
@@ -701,7 +700,7 @@ body {
 
 .education .edu_description {
 	position: relative;
-	margin: 32px;
+	margin: 32px 32px 40px 32px;
 }
 
 .education .edu_description .caption {
@@ -725,9 +724,10 @@ body {
 }
 
 .education .edu_description p {
-	margin: 0;
 	color: rgba(255, 255, 255, 0.80);
+	line-height: 1.8rem;
 	font-size: 1.4rem;
+	margin: 0;
 }
 
 /*============================================================*/
@@ -791,12 +791,17 @@ body {
 }
 
 .hobby .card .card_bottom p {
-	position: relative;
+	position: absolute;
+	line-height: 1.1rem;
+	font-size: 1.0rem;
 	margin: 16px;
 }
 
 .hobby .card .card_bottom .caption {
-	font-size: 1.1rem;
+	position: relative;
+	display: block;
+	margin-bottom: -8px;
+	font-size: 1.0rem;
 	font-weight: bold;
 }
 
